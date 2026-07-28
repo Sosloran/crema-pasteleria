@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Catálogo | Crema Pastelería — La Romana</title>
 <meta name="description" content="Catálogo digital de Crema Pastelería: postres, tortas, café, bebidas y comida salada. Filtra, busca y arma tu pedido por WhatsApp.">
-<meta name="theme-color" content="#0170b9">
+<meta name="theme-color" content="#6b4226">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
 <header class="site-header">
   <div class="container nav">
     <a class="brand" href="index.html">
-      <img src="https://www.cremapasteleria.com/wp-content/uploads/2020/10/cropped-Crema-Pasteleria-Logotipo-Web-Actualizado-Adaptado-Web-120x40.png" alt="Crema Pastelería" onerror="this.style.display='none'">
+      <img src="assets/img/logos/logo-header.png" alt="Crema Pastelería" onerror="this.style.display='none'">
       Crema
     </a>
     <nav class="nav-links">
@@ -130,10 +130,18 @@
 </aside>
 
 <button class="fab btn btn-primary" id="cart-fab" aria-label="Pedido">🛒 <span class="cart-count" id="cart-count2">0</span></button>
+
+<button class="chat-fab" id="chat-fab" aria-label="Chat"><span class="dot"></span> <span id="chat-fab-text">🤖 CremaBot</span></button>
+<div class="chat-panel" id="chat-panel" aria-live="polite">
+  <div class="chat-head"><div class="avatar">🤖</div><div><div class="title">CremaBot</div><div class="sub">Busca precios y productos</div></div><button class="x" id="chat-close" aria-label="Cerrar">✕</button></div>
+  <div class="chat-body" id="chat-body"></div>
+  <form class="chat-input" id="chat-form"><input type="text" id="chat-text" placeholder="Pregunta algo... ej. precio de la torta" autocomplete="off"><button type="submit">➤</button></form>
+</div>
 <div class="toast" id="toast"></div>
 
 <script src="assets/js/products.js"></script>
 <script src="assets/js/app.js"></script>
 
+<script src="assets/js/chatbot.js"></script>
 </body>
 </html>
