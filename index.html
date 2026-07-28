@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Crema Pastelería | Café, Restaurant, Panadería & Repostería — La Romana</title>
 <meta name="description" content="Crema Pastelería en La Romana, RD. Repostería, pasteles, postres, café y comida salada. Pide online por WhatsApp con entrega a domicilio o retiro en tienda.">
-<meta name="theme-color" content="#0170b9">
+<meta name="theme-color" content="#6b4226">
 <meta property="og:title" content="Crema Pastelería — Pide online">
 <meta property="og:description" content="Repostería artesanal en La Romana. Catálogo digital, pedidos por WhatsApp y entrega a domicilio.">
 <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
 <header class="site-header">
   <div class="container nav">
     <a class="brand" href="index.html">
-      <img src="https://www.cremapasteleria.com/wp-content/uploads/2020/10/cropped-Crema-Pasteleria-Logotipo-Web-Actualizado-Adaptado-Web-120x40.png" alt="Crema Pastelería" onerror="this.style.display='none'">
+      <img src="assets/img/logos/logo-header.png" alt="Crema Pastelería" onerror="this.style.display='none'">
       Crema
     </a>
     <nav class="nav-links">
@@ -95,10 +95,10 @@
       <p>Desde un café de la mañana hasta la torta de tu cumpleaños.</p>
     </div>
     <div class="cat-grid">
-      <a class="cat-card" style="background-image:url('https://www.cremapasteleria.com/wp-content/uploads/2020/08/Crema-Menu-Digital-Cat-Menu-Salado-600x600px-MENU-SALADO-2-3-300x300.png')" href="catalogo.html?cat=menu-salado"><span>Menú Salado</span></a>
-      <a class="cat-card" style="background-image:url('https://www.cremapasteleria.com/wp-content/uploads/2020/08/Crema-Menu-Digital-Categoria-Menu-Dulce-600x600px-MENU-DULCE-300x300.png')" href="catalogo.html?cat=menu-dulce"><span>Menú Dulce</span></a>
-      <a class="cat-card" style="background-image:url('https://www.cremapasteleria.com/wp-content/uploads/2020/08/Crema-Menu-Digital-Cat-Bebidas-600x600px-BEBIDAS-5-2-300x300.png')" href="catalogo.html?cat=bebidas-drinks"><span>Bebidas</span></a>
-      <a class="cat-card" style="background:linear-gradient(135deg,#0170b9,#014a78)" href="catalogo.html?cat=menu-dulce/tartas"><span>Tortas Especiales</span></a>
+      <a class="cat-card" style="background:linear-gradient(135deg,#6b4226,#4a2c18)" href="catalogo.html?cat=menu-salado"><span>🥪 Menú Salado</span></a>
+      <a class="cat-card" style="background:linear-gradient(135deg,#e8c87a,#c9a24a)" href="catalogo.html?cat=menu-dulce"><span>🍰 Menú Dulce</span></a>
+      <a class="cat-card" style="background:linear-gradient(135deg,#00e5ff,#0077ff)" href="catalogo.html?cat=bebidas-drinks"><span>🥤 Bebidas</span></a>
+      <a class="cat-card" style="background:linear-gradient(135deg,#ff2bd6,#6b4226)" href="catalogo.html?cat=menu-dulce/tartas"><span>🎂 Tortas Especiales</span></a>
     </div>
   </div>
 </section>
@@ -166,6 +166,7 @@
 <footer class="site-footer">
   <div class="container footer-grid">
     <div>
+      <img src="assets/img/logos/logo-principal.png" alt="Crema Pastelería" style="height:54px;width:auto;margin-bottom:.6em;border-radius:10px">
       <h4>Crema Pastelería</h4>
       <p style="font-size:.9rem;color:#cfc6b6">Café, Restaurant, Panadería & Repostería en La Romana, Rep. Dom. Los productos dulces y salados más deliciosos. 🍰🍖</p>
       <p style="font-size:.85rem;color:#a59c8c">Todos los precios incluyen ITBIS.</p>
@@ -234,10 +235,31 @@
 <!-- FAB carrito -->
 <button class="fab btn btn-primary" id="cart-fab" aria-label="Pedido">🛒 <span class="cart-count" id="cart-count2">0</span></button>
 
+<!-- Chatbot flotante -->
+<button class="chat-fab" id="chat-fab" aria-label="Chat">
+  <span class="dot"></span> <span id="chat-fab-text">🤖 CremaBot</span>
+</button>
+<div class="chat-panel" id="chat-panel" aria-live="polite">
+  <div class="chat-head">
+    <div class="avatar">🤖</div>
+    <div>
+      <div class="title">CremaBot</div>
+      <div class="sub">Busca precios y productos</div>
+    </div>
+    <button class="x" id="chat-close" aria-label="Cerrar">✕</button>
+  </div>
+  <div class="chat-body" id="chat-body"></div>
+  <form class="chat-input" id="chat-form">
+    <input type="text" id="chat-text" placeholder="Pregunta algo... ej. precio de la torta" autocomplete="off">
+    <button type="submit">➤</button>
+  </form>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script src="assets/js/products.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/home.js"></script>
+<script src="assets/js/chatbot.js"></script>
 </body>
 </html>
