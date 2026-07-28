@@ -38,14 +38,24 @@
     t.textContent=msg; t.classList.add("show");
     clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove("show"),2600);
   }
-  // placeholder visual cuando el producto no tiene foto real
+  // placeholder de marca cuando el producto no tiene foto real
+  const CAT_EMOJI = {
+    "Desayuno":"🍳","Opciones Desayuno":"🥞","Panes / Bread":"🥐","Sandwiches / Burgers":"🥪",
+    "Ensaladas":"🥗","Pastas y Risottos":"🍝","Cortes":"🥩","Salsas":"🥫","Acompañantes":"🍟",
+    "Individuales Refrigerados":"🍰","Clásicos Enteros":"🎂","Cheesecake":"🧀","Tartas":"🥧",
+    "Individuales Secos":"🍪","Paquetes":"🎁","Navideños":"🎄","Agua":"💧","Café / Leche":"☕",
+    "Té / Jugos":"🧃","Batidas / Shakes":"🥤","Refrescos":"🥤","Vinos":"🍷","Cervezas":"🍺","Licores":"🥃"
+  };
   function thumbHTML(p){
     const src = (p.imgLocal && p.imgLocal.indexOf("NO-IMAGEN")===-1) ? p.imgLocal
               : (p.img && p.img.indexOf("NO-IMAGEN")===-1 ? p.img : "");
     if(src){
-      return `<img src="${src}" alt="${esc(p.name)}" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;ph&quot;>${(p.name[0]||'C').toUpperCase()}</div>'">`;
+      return '<img src="'+src+'" alt="'+esc(p.name)+'" loading="lazy" onerror="this.style.display=\'none\'">';
     }
-    return `<div class="ph">${(p.name[0]||'C').toUpperCase()}</div>`;
+    const em = CAT_EMOJI[p.catLabel] || "🍰";
+    return '<div class="ph" style="font-size:2.6rem;color:var(--cafe);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.25em;padding:.4em;text-align:center">'
+      + '<span style="font-size:2.8rem">'+em+'</span>'
+      + '<span style="font-size:.8rem;font-weight:600;color:var(--muted);line-height:1.2">'+esc(p.name)+'</span></div>';
   }
   function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 
