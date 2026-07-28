@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto | Crema Pastelería — La Romana</title>
+<meta name="description" content="Contacta y ubica a Crema Pastelería en La Romana. Horarios, teléfonos, mapa y encargo de tortas personalizadas.">
+<meta name="theme-color" content="#0170b9">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="https://www.cremapasteleria.com/wp-content/uploads/2020/10/cropped-Crema-Pasteleria-Logotipo-Web-Actualizado-Adaptado-Web-120x40.png" alt="Crema Pastelería" onerror="this.style.display='none'">
+      Crema
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:.6em">
+      <button class="cart-btn" data-open-cart aria-label="Abrir pedido">🛒 <span>Pedido</span> <span class="cart-count" id="cart-count">0</span></button>
+      <button class="hamburger" id="hamburger" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Inicio</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Estamos para ti</span>
+      <h2>Contacto y ubicación</h2>
+      <p>Visítanos, llámanos o encarga tu torta personalizada.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div>
+        <div class="info-card" style="margin-bottom:1.2em">
+          <h3>📍 Dónde estamos</h3>
+          <p>C/ Francisco Richiez #61<br>La Romana, Rep. Dom.</p>
+          <h3>☎ Teléfonos</h3>
+          <p>(809) 813-2103<br>(829) 761-1728</p>
+          <h3>🕐 Horario</h3>
+          <p>Lunes a Domingo · 8:00 a.m. – 8:00 p.m.</p>
+          <h3>💬 WhatsApp</h3>
+          <p><a class="btn btn-wa" style="margin-top:.3em" href="https://wa.me/18098132103" target="_blank">Chatear ahora</a></p>
+        </div>
+        <iframe class="map" title="Ubicación Crema" loading="lazy"
+          src="https://www.google.com/maps?q=Crema%20Pasteleria%20La%20Romana&output=embed"></iframe>
+      </div>
+
+      <div class="info-card">
+        <h3>🎂 Encargo de torta personalizada</h3>
+        <p class="muted" style="font-size:.9rem">Diseña tu torta de cumpleaños o evento. Te enviaremos el pedido por WhatsApp.</p>
+        <button class="btn btn-primary btn-block" id="open-cake">Personalizar mi torta →</button>
+
+        <h3 style="margin-top:1.4em">✉️ Escríbenos</h3>
+        <form id="contact-form">
+          <div class="field"><label>Nombre</label><input type="text" name="nombre" required></div>
+          <div class="field"><label>Correo</label><input type="email" name="email" required></div>
+          <div class="field"><label>Mensaje</label><textarea name="mensaje" required></textarea></div>
+          <button class="btn btn-cream btn-block" type="submit">Enviar mensaje</button>
+          <div class="msg" id="contact-msg" style="font-size:.85rem;color:var(--blue);min-height:1.2em;margin-top:.5em"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal torta personalizada -->
+<div class="modal-overlay" id="cake-modal">
+  <div class="modal">
+    <button class="close" aria-label="Cerrar">✕</button>
+    <h3>🎂 Personaliza tu torta</h3>
+    <form id="cake-form">
+      <div class="field"><label>Tamaño</label>
+        <select name="size" required>
+          <option>Personal (4-6 pers.)</option>
+          <option>Mediana (8-12 pers.)</option>
+          <option>Grande (14-20 pers.)</option>
+          <option>Familiar (22+ pers.)</option>
+        </select>
+      </div>
+      <div class="field"><label>Sabor de bizcocho</label>
+        <select name="bizcocho" required>
+          <option>Vainilla</option><option>Chocolate</option><option>Red velvet</option><option>Zanahoria</option><option>Marble</option>
+        </select>
+      </div>
+      <div class="field"><label>Relleno</label>
+        <select name="relleno" required>
+          <option>Crema pastelera</option><option>Fruta natural</option><option>Mousse de chocolate</option><option>Dulce de leche</option><option>Queso crema</option>
+        </select>
+      </div>
+      <div class="field"><label>Cubierta</label>
+        <select name="cubierta" required>
+          <option>Buttercream</option><option>Glaseado real</option><option>Chocolate</option><option>Fruta y crema</option>
+        </select>
+      </div>
+      <div class="field"><label>Mensaje en la torta</label><input type="text" name="mensaje" placeholder="Ej: ¡Feliz cumpleaños Ana!"></div>
+      <div class="field"><label>Fecha de entrega</label><input type="date" name="fecha" required></div>
+      <div class="field"><label>Tu nombre / contacto</label><input type="text" name="nombre" placeholder="Tu nombre y teléfono" required></div>
+      <button class="btn btn-wa btn-block" type="submit">💬 Enviar encargo por WhatsApp</button>
+    </form>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><h4>Crema Pastelería</h4><p style="font-size:.9rem;color:#cfc6b6">Café, Restaurant, Panadería & Repostería en La Romana, Rep. Dom.</p></div>
+    <div><h4>Visítanos</h4><p style="font-size:.9rem">📍 C/ Francisco Richiez #61<br>La Romana, Rep. Dom.</p><p style="font-size:.9rem">☎ (809) 813-2103</p></div>
+    <div><h4>Enlaces</h4><p style="font-size:.9rem;line-height:1.9"><a href="catalogo.html">Catálogo</a><br><a href="nosotros.html">Nosotros</a><br><a href="https://instagram.com/cremapasteleria" target="_blank">Instagram</a></p></div>
+  </div>
+  <div class="container footer-bottom">© <span id="year"></span> Crema Pastelería · La Romana, RD</div>
+</footer>
+
+<div class="cart-overlay" id="cart-overlay"></div>
+<aside class="cart-drawer" id="cart-drawer" aria-label="Pedido">
+  <div class="cart-head"><h3>Tu Pedido 🛒</h3><button class="close" data-close-cart aria-label="Cerrar">✕</button></div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="cart-foot">
+    <div class="delivery-toggle" id="delivery-block" style="display:none">
+      <button data-mode="pickup" class="active">🏪 Retiro</button>
+      <button data-mode="delivery">🛵 Delivery</button>
+    </div>
+    <div id="zone-wrap" style="display:none" class="field"><label>Zona de entrega</label>
+      <select id="zone-sel"><option value="central">La Romana Centro</option><option value="este">Romana Este</option><option value="colonia">Villa Hermosa / Colonia</option><option value="out">Fuera de zona (+cargo)</option></select>
+    </div>
+    <div class="sched">
+      <div class="field" style="margin:0"><label>Fecha</label><input type="date" id="sched-date"></div>
+      <div class="field" style="margin:0"><label>Hora</label>
+        <select id="sched-time"><option>09:00</option><option>10:00</option><option>11:00</option><option>12:00</option><option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option><option>17:00</option><option>18:00</option><option>19:00</option></select>
+      </div>
+    </div>
+    <div class="cart-total"><span>Total</span><span id="cart-total">$0.00</span></div>
+    <button class="btn btn-wa btn-block" id="send-wa">💬 Enviar pedido por WhatsApp</button>
+  </div>
+</aside>
+<button class="fab btn btn-primary" id="cart-fab" aria-label="Pedido">🛒 <span class="cart-count" id="cart-count2">0</span></button>
+<div class="toast" id="toast"></div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
