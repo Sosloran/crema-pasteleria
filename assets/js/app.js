@@ -40,9 +40,10 @@
   }
   // placeholder visual cuando el producto no tiene foto real
   function thumbHTML(p){
-    if(p.img && p.img.indexOf("NO-IMAGEN")===-1){
-      return `<img src="${p.img}" alt="${esc(p.name)}" loading="lazy"
-              onerror="this.parentNode.innerHTML='<div class=&quot;ph&quot;>${(p.name[0]||'C').toUpperCase()}</div>'">`;
+    const src = (p.imgLocal && p.imgLocal.indexOf("NO-IMAGEN")===-1) ? p.imgLocal
+              : (p.img && p.img.indexOf("NO-IMAGEN")===-1 ? p.img : "");
+    if(src){
+      return `<img src="${src}" alt="${esc(p.name)}" loading="lazy" onerror="this.parentNode.innerHTML='<div class=&quot;ph&quot;>${(p.name[0]||'C').toUpperCase()}</div>'">`;
     }
     return `<div class="ph">${(p.name[0]||'C').toUpperCase()}</div>`;
   }
@@ -242,6 +243,11 @@
       window.open(`https://wa.me/${BRAND.phone}?text=${encodeURIComponent(msg)}`,"_blank");
       $("#contact-msg").textContent="¡Gracias! Te contactaremos por WhatsApp. 💬";
       cf.reset();
+    });
+
+    // chatbot: añadir producto desde CremaBot
+    document.addEventListener("crema:add", e=>{
+      const id=e.detail; if(id) addToCart(id);
     });
 
     // año footer
