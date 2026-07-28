@@ -1,0 +1,488 @@
+[
+ {
+  "name": "Hojaldre de Frutas",
+  "price": 110.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/hojaldre-de-frutas/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p001"
+ },
+ {
+  "name": "Palmeras",
+  "price": 60.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/palmeras/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p002"
+ },
+ {
+  "name": "Pan Baguette Entero",
+  "price": 90.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/pan-baguette-entero/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p003"
+ },
+ {
+  "name": "Pan Baguette Integral",
+  "price": 100.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/pan-baguette-integral/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p004"
+ },
+ {
+  "name": "Pan Baguette Pequeño",
+  "price": 25.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/pan-baguette-pequeno/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p005"
+ },
+ {
+  "name": "Pan Brioche Pequeño",
+  "price": 100.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/pan-brioche-pequeno/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p006"
+ },
+ {
+  "name": "Pan Campesino",
+  "price": 140.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/pan-campesino/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p007"
+ },
+ {
+  "name": "Pan Crema y Pasas",
+  "price": 100.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Croissant-Crema-y-Pasas-600x600px-PANES-BREAD-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/pan-crema-y-pasas/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p008"
+ },
+ {
+  "name": "Pan de Chocolate",
+  "price": 120.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Pan-de-Chocolate-600x600px-PANES-BREAD-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/pan-de-chocolate/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p009"
+ },
+ {
+  "name": "Pan Gallego",
+  "price": 135.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/pan-gallego/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p010"
+ },
+ {
+  "name": "Pan Pistacho y Crema",
+  "price": 130.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/pan-pistacho-y-crema/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p011"
+ },
+ {
+  "name": "Pancakes &#8211; Desayuno 4",
+  "price": 330.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Pancakes-600x600px-OPCIONES-DESAYUNO-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/pancakes/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p012"
+ },
+ {
+  "name": "Pastelito de Fresa",
+  "price": 110.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/pastelito-de-fresa/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p013"
+ },
+ {
+  "name": "Pastelito de Manzana",
+  "price": 110.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/pastelito-de-manzana/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p014"
+ },
+ {
+  "name": "Spanish Tortilla &#8211; Desayuno 5",
+  "price": 125.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/spanish-tortilla/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p015"
+ },
+ {
+  "name": "Turcos de Jamón y Queso",
+  "price": 135.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/turcos-de-jamon-y-queso/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p016"
+ },
+ {
+  "name": "Western Omelete &#8211; Desayuno 3",
+  "price": 400.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Western-Omelete-600x600px-OPCIONES-DESAYUNO-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/western-omelete/",
+  "cat": "menu-salado/desayuno",
+  "catLabel": "Desayuno",
+  "id": "p017"
+ },
+ {
+  "name": "Caesar Salad",
+  "price": 350.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/caesar-salad/",
+  "cat": "menu-salado/ensaladas-salads",
+  "catLabel": "Ensaladas",
+  "id": "p018"
+ },
+ {
+  "name": "Caesar Salad w/ Grilled Chicken",
+  "price": 415.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/08/Crema-Menu-Digital-Ceasar-Salad-w-Grilled-Chicken-600x600px-ENSALADAS-SALADS-22-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/caesar-salad-w-grilled-chicken/",
+  "cat": "menu-salado/ensaladas-salads",
+  "catLabel": "Ensaladas",
+  "id": "p019"
+ },
+ {
+  "name": "Caesar Salad w/ Shrimp",
+  "price": 465.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/caesar-salad-w-shrimp/",
+  "cat": "menu-salado/ensaladas-salads",
+  "catLabel": "Ensaladas",
+  "id": "p020"
+ },
+ {
+  "name": "Caprese Salad",
+  "price": 390.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/caprese-salad/",
+  "cat": "menu-salado/ensaladas-salads",
+  "catLabel": "Ensaladas",
+  "id": "p021"
+ },
+ {
+  "name": "Garden Salad",
+  "price": 290.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/garden-salad/",
+  "cat": "menu-salado/ensaladas-salads",
+  "catLabel": "Ensaladas",
+  "id": "p022"
+ },
+ {
+  "name": "Grilled Anticucho Beef Salad",
+  "price": 450.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Grilled-Anticucho-Beef-Salad-600x600px-ENSALADAS-SALADS-22-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/grilled-anticucho-beef-salad/",
+  "cat": "menu-salado/ensaladas-salads",
+  "catLabel": "Ensaladas",
+  "id": "p023"
+ },
+ {
+  "name": "Grilled Asian Chicken Salad",
+  "price": 415.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Grilled-Asian-Chicken-Salad-600x600px-ENSALADAS-SALADS-22-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/grilled-asian-chicken-salad/",
+  "cat": "menu-salado/ensaladas-salads",
+  "catLabel": "Ensaladas",
+  "id": "p024"
+ },
+ {
+  "name": "Grilled Shrimp Salad",
+  "price": 425.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/grilled-shrimp-salad/",
+  "cat": "menu-salado/ensaladas-salads",
+  "catLabel": "Ensaladas",
+  "id": "p025"
+ },
+ {
+  "name": "Souvlaki Salad w/ Grilled Chicken",
+  "price": 425.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/souvlaki-salad-w-grilled-chicken-or-pork/",
+  "cat": "menu-salado/ensaladas-salads",
+  "catLabel": "Ensaladas",
+  "id": "p026"
+ },
+ {
+  "name": "Tropical Fruit Salad",
+  "price": 220.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/tropical-fruit-salad/",
+  "cat": "menu-salado/ensaladas-salads",
+  "catLabel": "Ensaladas",
+  "id": "p027"
+ },
+ {
+  "name": "1 Eggs, Toast, Ham or Bacon &#8211; Desayuno 1",
+  "price": 350.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/1-eggs-toast-ham-or-bacon/",
+  "cat": "menu-salado/opciones-desayuno",
+  "catLabel": "Opciones Desayuno",
+  "id": "p028"
+ },
+ {
+  "name": "2 Ham &#038; Cheese Omelete &#8211; Desayuno 2",
+  "price": 380.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-2-Ham-Cheese-Omelete-600x600px-OPCIONES-DESAYUNO-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/2-ham-cheese-omelete/",
+  "cat": "menu-salado/opciones-desayuno",
+  "catLabel": "Opciones Desayuno",
+  "id": "p029"
+ },
+ {
+  "name": "Dominican Breakfast &#8211; Desayuno 7",
+  "price": 425.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Dominican-Breakfast-600x600px-OPCIONES-DESAYUNO-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/dominican-breakfast/",
+  "cat": "menu-salado/opciones-desayuno",
+  "catLabel": "Opciones Desayuno",
+  "id": "p030"
+ },
+ {
+  "name": "French Toast &#8211; Desayuno 6",
+  "price": 340.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-French-Toast-600x600px-OPCIONES-DESAYUNO-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/french-toast/",
+  "cat": "menu-salado/opciones-desayuno",
+  "catLabel": "Opciones Desayuno",
+  "id": "p031"
+ },
+ {
+  "name": "Croissant Canela",
+  "price": 110.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Croissant-Canela-600x600px-PANES-BREAD-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/croissant-canela/",
+  "cat": "menu-salado/panes-bread",
+  "catLabel": "Panes / Bread",
+  "id": "p032"
+ },
+ {
+  "name": "Croissant Cream Cheese",
+  "price": 150.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/croissant-cream-cheese/",
+  "cat": "menu-salado/panes-bread",
+  "catLabel": "Panes / Bread",
+  "id": "p033"
+ },
+ {
+  "name": "Croissant Integral",
+  "price": 83.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/croissant-integral/",
+  "cat": "menu-salado/panes-bread",
+  "catLabel": "Panes / Bread",
+  "id": "p034"
+ },
+ {
+  "name": "Croissant Jamón y Queso",
+  "price": 89.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/croissant-jamon-y-queso/",
+  "cat": "menu-salado/panes-bread",
+  "catLabel": "Panes / Bread",
+  "id": "p035"
+ },
+ {
+  "name": "Croissant Natural",
+  "price": 100.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Croissant-Natural-600x600px-PANES-BREAD-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/croissant-natural/",
+  "cat": "menu-salado/panes-bread",
+  "catLabel": "Panes / Bread",
+  "id": "p036"
+ },
+ {
+  "name": "Croissant Nutella",
+  "price": 150.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/croissant-nutella/",
+  "cat": "menu-salado/panes-bread",
+  "catLabel": "Panes / Bread",
+  "id": "p037"
+ },
+ {
+  "name": "Croissant Queso",
+  "price": 70.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/croissant-queso/",
+  "cat": "menu-salado/panes-bread",
+  "catLabel": "Panes / Bread",
+  "id": "p038"
+ },
+ {
+  "name": "Empanada Guayaba y Queso",
+  "price": 120.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/empanada-guayaba-y-queso/",
+  "cat": "menu-salado/panes-bread",
+  "catLabel": "Panes / Bread",
+  "id": "p039"
+ },
+ {
+  "name": "Bacon Cheese Burger",
+  "price": 575.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Bacon-Cheese-Burger-600x600px-SANDWICHES-HAMBURGERS-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/bacon-cheese-burger/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p040"
+ },
+ {
+  "name": "Chicken Salad Sandwich",
+  "price": 340.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/chicken-sandwich/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p041"
+ },
+ {
+  "name": "Classic Hamburger",
+  "price": 375.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/classic-hamburger/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p042"
+ },
+ {
+  "name": "Club Sandwich",
+  "price": 425.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/club-sandwich/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p043"
+ },
+ {
+  "name": "Croquetes &#8211; Ham, Chicken or Risotto w/ Teryaki Mayonaise",
+  "price": 60.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/croquetes-ham-chicken-or-risoto-w-teryaki-mayonaise/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p044"
+ },
+ {
+  "name": "Falafel Sándwich",
+  "price": 375.0,
+  "img": "https://www.cremapasteleria.com/wp-content/uploads/2020/07/Crema-Menu-Digital-Falafel-Sandwich-600x600px-SANDWICHES-HAMBURGERS-300x300.png",
+  "url": "https://www.cremapasteleria.com/producto/falafel-sandwich/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p045"
+ },
+ {
+  "name": "Ham and Cheese Sandwich",
+  "price": 265.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/ham-and-cheese-sandwich/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p046"
+ },
+ {
+  "name": "Melted Cheese Sandwish",
+  "price": 225.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/grill-cheese-sandwish/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p047"
+ },
+ {
+  "name": "Melted Veggie Sandwich",
+  "price": 315.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/grilled-veggie-sandwich/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p048"
+ },
+ {
+  "name": "Mozzarella Sandwich",
+  "price": 350.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/mozzarella-sandwich/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p049"
+ },
+ {
+  "name": "Pepper Cream Burger",
+  "price": 475.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/pepper-cream-burger/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p050"
+ },
+ {
+  "name": "Philly Cheese Steak Sandwich",
+  "price": 445.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/philly-cheese-steak-sandwich/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p051"
+ },
+ {
+  "name": "Serrano Ham Sandwich",
+  "price": 475.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/serrano-ham-sandwich/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p052"
+ },
+ {
+  "name": "Shitake Burger",
+  "price": 475.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/shitake-burger/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p053"
+ },
+ {
+  "name": "Tuna Sandwich",
+  "price": 365.0,
+  "img": "",
+  "url": "https://www.cremapasteleria.com/producto/tuna-sandwich/",
+  "cat": "menu-salado/sandwiches-hamburgers",
+  "catLabel": "Sandwiches / Burgers",
+  "id": "p054"
+ }
+]
