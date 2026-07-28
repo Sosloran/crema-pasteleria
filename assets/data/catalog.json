@@ -69,7 +69,8 @@
   "url": "https://www.cremapasteleria.com/producto/pan-crema-y-pasas/",
   "cat": "menu-salado/desayuno",
   "catLabel": "Desayuno",
-  "id": "p008"
+  "id": "p008",
+  "imgLocal": "assets/img/products/pan-crema-y-pasas.png"
  },
  {
   "name": "Pan de Chocolate",
@@ -78,7 +79,8 @@
   "url": "https://www.cremapasteleria.com/producto/pan-de-chocolate/",
   "cat": "menu-salado/desayuno",
   "catLabel": "Desayuno",
-  "id": "p009"
+  "id": "p009",
+  "imgLocal": "assets/img/products/pan-de-chocolate.png"
  },
  {
   "name": "Pan Gallego",
@@ -105,7 +107,8 @@
   "url": "https://www.cremapasteleria.com/producto/pancakes/",
   "cat": "menu-salado/desayuno",
   "catLabel": "Desayuno",
-  "id": "p012"
+  "id": "p012",
+  "imgLocal": "assets/img/products/pancakes-8211-desayuno-4.png"
  },
  {
   "name": "Pastelito de Fresa",
@@ -150,7 +153,8 @@
   "url": "https://www.cremapasteleria.com/producto/western-omelete/",
   "cat": "menu-salado/desayuno",
   "catLabel": "Desayuno",
-  "id": "p017"
+  "id": "p017",
+  "imgLocal": "assets/img/products/western-omelete-8211-desayuno-3.png"
  },
  {
   "name": "Caesar Salad",
@@ -204,7 +208,8 @@
   "url": "https://www.cremapasteleria.com/producto/grilled-anticucho-beef-salad/",
   "cat": "menu-salado/ensaladas-salads",
   "catLabel": "Ensaladas",
-  "id": "p023"
+  "id": "p023",
+  "imgLocal": "assets/img/products/grilled-anticucho-beef-salad.png"
  },
  {
   "name": "Grilled Asian Chicken Salad",
@@ -258,7 +263,8 @@
   "url": "https://www.cremapasteleria.com/producto/2-ham-cheese-omelete/",
   "cat": "menu-salado/opciones-desayuno",
   "catLabel": "Opciones Desayuno",
-  "id": "p029"
+  "id": "p029",
+  "imgLocal": "assets/img/products/2-ham-038-cheese-omelete-8211-desayuno-2.png"
  },
  {
   "name": "Dominican Breakfast &#8211; Desayuno 7",
@@ -267,7 +273,8 @@
   "url": "https://www.cremapasteleria.com/producto/dominican-breakfast/",
   "cat": "menu-salado/opciones-desayuno",
   "catLabel": "Opciones Desayuno",
-  "id": "p030"
+  "id": "p030",
+  "imgLocal": "assets/img/products/dominican-breakfast-8211-desayuno-7.png"
  },
  {
   "name": "French Toast &#8211; Desayuno 6",
@@ -276,7 +283,8 @@
   "url": "https://www.cremapasteleria.com/producto/french-toast/",
   "cat": "menu-salado/opciones-desayuno",
   "catLabel": "Opciones Desayuno",
-  "id": "p031"
+  "id": "p031",
+  "imgLocal": "assets/img/products/french-toast-8211-desayuno-6.png"
  },
  {
   "name": "Croissant Canela",
@@ -285,7 +293,8 @@
   "url": "https://www.cremapasteleria.com/producto/croissant-canela/",
   "cat": "menu-salado/panes-bread",
   "catLabel": "Panes / Bread",
-  "id": "p032"
+  "id": "p032",
+  "imgLocal": "assets/img/products/croissant-canela.png"
  },
  {
   "name": "Croissant Cream Cheese",
@@ -357,7 +366,8 @@
   "url": "https://www.cremapasteleria.com/producto/bacon-cheese-burger/",
   "cat": "menu-salado/sandwiches-hamburgers",
   "catLabel": "Sandwiches / Burgers",
-  "id": "p040"
+  "id": "p040",
+  "imgLocal": "assets/img/products/bacon-cheese-burger.png"
  },
  {
   "name": "Chicken Salad Sandwich",
@@ -402,7 +412,8 @@
   "url": "https://www.cremapasteleria.com/producto/falafel-sandwich/",
   "cat": "menu-salado/sandwiches-hamburgers",
   "catLabel": "Sandwiches / Burgers",
-  "id": "p045"
+  "id": "p045",
+  "imgLocal": "assets/img/products/falafel-s-ndwich.png"
  },
  {
   "name": "Ham and Cheese Sandwich",
@@ -492,7 +503,8 @@
   "url": "https://www.cremapasteleria.com/producto/b-b-q-spare-ribs/",
   "cat": "menu-salado/cortes-cuts",
   "catLabel": "Cortes",
-  "id": "p055"
+  "id": "p055",
+  "imgLocal": "assets/img/products/b-b-q-spare-ribs.png"
  },
  {
   "name": "Beef Ossobuco (12 oz)",
@@ -501,7 +513,8 @@
   "url": "https://www.cremapasteleria.com/producto/beef-ossobuco-12-oz/",
   "cat": "menu-salado/cortes-cuts",
   "catLabel": "Cortes",
-  "id": "p056"
+  "id": "p056",
+  "imgLocal": "assets/img/products/beef-ossobuco-12-oz-.png"
  },
  {
   "name": "Chicken Breast in Cream Sauce",
@@ -528,7 +541,8 @@
   "url": "https://www.cremapasteleria.com/producto/grilled-angus-churrasco-steak-10-oz/",
   "cat": "menu-salado/cortes-cuts",
   "catLabel": "Cortes",
-  "id": "p059"
+  "id": "p059",
+  "imgLocal": "assets/img/products/grilled-angus-churrasco-steak-10-oz-.png"
  },
  {
   "name": "Grilled Chicken Breast",
@@ -789,7 +803,8 @@
   "url": "https://www.cremapasteleria.com/producto/4-leches-pequeno/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p088"
+  "id": "p088",
+  "imgLocal": "assets/img/products/4-leches-peque-o.png"
  },
  {
   "name": "Almohaditas",
@@ -870,7 +885,8 @@
   "url": "https://www.cremapasteleria.com/producto/mini-cheesecake-cherries/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p097"
+  "id": "p097",
+  "imgLocal": "assets/img/products/mini-cheesecake-cherries.png"
  },
  {
   "name": "Mini Cheesecake Chinola",
@@ -897,7 +913,8 @@
   "url": "https://www.cremapasteleria.com/producto/mini-cheesecake-guayaba-streusel/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p100"
+  "id": "p100",
+  "imgLocal": "assets/img/products/mini-cheesecake-guayaba-streusel.png"
  },
  {
   "name": "Mini Creme Brulee",
@@ -924,7 +941,8 @@
   "url": "https://www.cremapasteleria.com/producto/mini-tarta-crema-y-caramelo/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p103"
+  "id": "p103",
+  "imgLocal": "assets/img/products/mini-tarta-crema-y-caramelo.png"
  },
  {
   "name": "Mini Tarta Limón Merengue",
@@ -933,7 +951,8 @@
   "url": "https://www.cremapasteleria.com/producto/mini-tarta-limon-merengue/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p104"
+  "id": "p104",
+  "imgLocal": "assets/img/products/mini-tarta-lim-n-merengue.png"
  },
  {
   "name": "Napoleon de Dulce Leche",
@@ -969,7 +988,8 @@
   "url": "https://www.cremapasteleria.com/producto/porcion-carrot-cake/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p108"
+  "id": "p108",
+  "imgLocal": "assets/img/products/porci-n-carrot-cake.png"
  },
  {
   "name": "Porción Chocolate, Dulce Leche y Ganache",
@@ -987,7 +1007,8 @@
   "url": "https://www.cremapasteleria.com/producto/porcion-coco-y-limon/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p110"
+  "id": "p110",
+  "imgLocal": "assets/img/products/porci-n-coco-y-lim-n.png"
  },
  {
   "name": "Porción Flan de Coco",
@@ -1023,7 +1044,8 @@
   "url": "https://www.cremapasteleria.com/producto/porcion-german-chocolate/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p114"
+  "id": "p114",
+  "imgLocal": "assets/img/products/porci-n-german-chocolate.png"
  },
  {
   "name": "Porción Manzana y Caramelo",
@@ -1032,7 +1054,8 @@
   "url": "https://www.cremapasteleria.com/producto/porcion-manzana-y-caramelo/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p115"
+  "id": "p115",
+  "imgLocal": "assets/img/products/porci-n-manzana-y-caramelo.png"
  },
  {
   "name": "Porción Maple Turron",
@@ -1113,7 +1136,8 @@
   "url": "https://www.cremapasteleria.com/producto/porcion-tarta-coco-horneado/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p124"
+  "id": "p124",
+  "imgLocal": "assets/img/products/porci-n-tarta-coco-horneado.png"
  },
  {
   "name": "Porción Tarta Pecan",
@@ -1122,7 +1146,8 @@
   "url": "https://www.cremapasteleria.com/producto/porcion-tarta-pecan/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p125"
+  "id": "p125",
+  "imgLocal": "assets/img/products/porci-n-tarta-pecan.png"
  },
  {
   "name": "Porción Tiramisu",
@@ -1131,7 +1156,8 @@
   "url": "https://www.cremapasteleria.com/producto/porcion-tiramisu/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p126"
+  "id": "p126",
+  "imgLocal": "assets/img/products/porci-n-tiramisu.png"
  },
  {
   "name": "Porción Vainilla c/ Dulce Leche",
@@ -1140,7 +1166,8 @@
   "url": "https://www.cremapasteleria.com/producto/porcion-vainilla-con-dulce-leche/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p127"
+  "id": "p127",
+  "imgLocal": "assets/img/products/porci-n-vainilla-c-dulce-leche.png"
  },
  {
   "name": "Porción Vainilla c/ Pastelera",
@@ -1167,7 +1194,8 @@
   "url": "https://www.cremapasteleria.com/producto/trufa-chocolate-variada/",
   "cat": "menu-dulce/individuales-refrigerados",
   "catLabel": "Individuales Refrigerados",
-  "id": "p130"
+  "id": "p130",
+  "imgLocal": "assets/img/products/trufa-chocolate-variada.png"
  },
  {
   "name": "3 Leches (Grande)",
@@ -1221,7 +1249,8 @@
   "url": "https://www.cremapasteleria.com/producto/blondie-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p136"
+  "id": "p136",
+  "imgLocal": "assets/img/products/blondie-9-8243-.jpg"
  },
  {
   "name": "Carrot Cake 9&#8243;",
@@ -1230,7 +1259,8 @@
   "url": "https://www.cremapasteleria.com/producto/carrot-cake-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p137"
+  "id": "p137",
+  "imgLocal": "assets/img/products/carrot-cake-9-8243-.png"
  },
  {
   "name": "Chocolate Extreme 9&#8243;",
@@ -1239,7 +1269,8 @@
   "url": "https://www.cremapasteleria.com/producto/chocolate-extreme-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p138"
+  "id": "p138",
+  "imgLocal": "assets/img/products/chocolate-extreme-9-8243-.png"
  },
  {
   "name": "Chocolate, Dulce Leche y Ganache 9&#8243;",
@@ -1257,7 +1288,8 @@
   "url": "https://www.cremapasteleria.com/producto/coco-y-limon-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p140"
+  "id": "p140",
+  "imgLocal": "assets/img/products/coco-y-limon-9-8243-.png"
  },
  {
   "name": "Delicia de Ciruela (Grande)",
@@ -1302,7 +1334,8 @@
   "url": "https://www.cremapasteleria.com/producto/flourless-chocolate-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p145"
+  "id": "p145",
+  "imgLocal": "assets/img/products/flourless-chocolate-cake-9-8243-.png"
  },
  {
   "name": "Fresas c/ Crema 9&#8243;",
@@ -1311,7 +1344,8 @@
   "url": "https://www.cremapasteleria.com/producto/fresas-con-crema-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p146"
+  "id": "p146",
+  "imgLocal": "assets/img/products/fresas-c-crema-9-8243-.png"
  },
  {
   "name": "German Chocolate 9&#8243;",
@@ -1320,7 +1354,8 @@
   "url": "https://www.cremapasteleria.com/producto/german-chocolate-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p147"
+  "id": "p147",
+  "imgLocal": "assets/img/products/german-chocolate-9-8243-.png"
  },
  {
   "name": "Manzana y Caramelo 9&#8243;",
@@ -1329,7 +1364,8 @@
   "url": "https://www.cremapasteleria.com/producto/manzana-y-caramelo-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p148"
+  "id": "p148",
+  "imgLocal": "assets/img/products/manzana-y-caramelo-9-8243-.png"
  },
  {
   "name": "Maple Turron 9&#8243;",
@@ -1338,7 +1374,8 @@
   "url": "https://www.cremapasteleria.com/producto/maple-turron-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p149"
+  "id": "p149",
+  "imgLocal": "assets/img/products/maple-turron-9-8243-.png"
  },
  {
   "name": "Melocotón c/ Crema 9&#8243;",
@@ -1356,7 +1393,8 @@
   "url": "https://www.cremapasteleria.com/producto/nutella-borracho-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p151"
+  "id": "p151",
+  "imgLocal": "assets/img/products/nutella-borracho-9-8243-.png"
  },
  {
   "name": "Oreo Cake 9&#8243;",
@@ -1365,7 +1403,8 @@
   "url": "https://www.cremapasteleria.com/producto/oreo-cake-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p152"
+  "id": "p152",
+  "imgLocal": "assets/img/products/oreo-cake-9-8243-.png"
  },
  {
   "name": "Pudin Ron Pasas",
@@ -1401,7 +1440,8 @@
   "url": "https://www.cremapasteleria.com/producto/splenda-flourless-chocolate-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p156"
+  "id": "p156",
+  "imgLocal": "assets/img/products/splenda-flourless-chocolate-9-8243-.png"
  },
  {
   "name": "Tiramisu 9&#8243;",
@@ -1410,7 +1450,8 @@
   "url": "https://www.cremapasteleria.com/producto/tiramisu-9/",
   "cat": "menu-dulce/clasicos-enteros",
   "catLabel": "Clásicos Enteros",
-  "id": "p157"
+  "id": "p157",
+  "imgLocal": "assets/img/products/tiramisu-9-8243-.png"
  },
  {
   "name": "Vainilla Dulce Leche / Pisc / Pastelera 9&#8243;",
@@ -1473,7 +1514,8 @@
   "url": "https://www.cremapasteleria.com/producto/tarta-de-coco-horneado-12/",
   "cat": "menu-dulce/tartas",
   "catLabel": "Tartas",
-  "id": "p164"
+  "id": "p164",
+  "imgLocal": "assets/img/products/tarta-de-coco-horneado-12-8243-.png"
  },
  {
   "name": "Tarta de Crema y Caramelo 12&#8243;",
@@ -1500,7 +1542,8 @@
   "url": "https://www.cremapasteleria.com/producto/tarta-de-frutas-mixtas-12/",
   "cat": "menu-dulce/tartas",
   "catLabel": "Tartas",
-  "id": "p167"
+  "id": "p167",
+  "imgLocal": "assets/img/products/tarta-de-frutas-mixtas-12-8243-.png"
  },
  {
   "name": "Tarta Guayaba 12&#8243;",
@@ -1518,7 +1561,8 @@
   "url": "https://www.cremapasteleria.com/producto/tarta-limon-con-crema-12/",
   "cat": "menu-dulce/tartas",
   "catLabel": "Tartas",
-  "id": "p169"
+  "id": "p169",
+  "imgLocal": "assets/img/products/tarta-lim-n-con-crema-12-8243-.png"
  },
  {
   "name": "Tarta Limón Merengue 12&#8243;",
@@ -1527,7 +1571,8 @@
   "url": "https://www.cremapasteleria.com/producto/tarta-limon-merengue-12/",
   "cat": "menu-dulce/tartas",
   "catLabel": "Tartas",
-  "id": "p170"
+  "id": "p170",
+  "imgLocal": "assets/img/products/tarta-lim-n-merengue-12-8243-.png"
  },
  {
   "name": "Tarta Manzana Streusel 12&#8243;",
@@ -1545,7 +1590,8 @@
   "url": "https://www.cremapasteleria.com/producto/tarta-pecan-9/",
   "cat": "menu-dulce/tartas",
   "catLabel": "Tartas",
-  "id": "p172"
+  "id": "p172",
+  "imgLocal": "assets/img/products/tarta-pecan-9-8243-.png"
  },
  {
   "name": "Ind. Alfajores",
@@ -1554,7 +1600,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-alfajores/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p173"
+  "id": "p173",
+  "imgLocal": "assets/img/products/ind-alfajores.png"
  },
  {
   "name": "Ind. Biscotti Almendras y Naranja",
@@ -1563,7 +1610,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-biscotti-almendras-y-naranja/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p174"
+  "id": "p174",
+  "imgLocal": "assets/img/products/ind-biscotti-almendras-y-naranja.png"
  },
  {
   "name": "Ind. Biscotti Limón Almendras",
@@ -1572,7 +1620,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-biscotti-limon-almendras/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p175"
+  "id": "p175",
+  "imgLocal": "assets/img/products/ind-biscotti-lim-n-almendras.png"
  },
  {
   "name": "Ind. Cuadritos Blondies",
@@ -1581,7 +1630,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-cuadritos-blondies/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p176"
+  "id": "p176",
+  "imgLocal": "assets/img/products/ind-cuadritos-blondies.png"
  },
  {
   "name": "Ind. Cuadritos Brownies",
@@ -1590,7 +1640,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-cuadritos-brownies/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p177"
+  "id": "p177",
+  "imgLocal": "assets/img/products/ind-cuadritos-brownies.png"
  },
  {
   "name": "Ind. Cuadritos Coco y Nueces",
@@ -1599,7 +1650,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-cuadritos-coco-y-nueces/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p178"
+  "id": "p178",
+  "imgLocal": "assets/img/products/ind-cuadritos-coco-y-nueces.png"
  },
  {
   "name": "Ind. Cuadritos Limón",
@@ -1608,7 +1660,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-cuadritos-limon/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p179"
+  "id": "p179",
+  "imgLocal": "assets/img/products/ind-cuadritos-lim-n.png"
  },
  {
   "name": "Ind. Cuadritos Pecan Caramel",
@@ -1617,7 +1670,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-cuadritos-pecan-caramel/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p180"
+  "id": "p180",
+  "imgLocal": "assets/img/products/ind-cuadritos-pecan-caramel.png"
  },
  {
   "name": "Ind. Cupcake Chocolate Con Suspiro",
@@ -1662,7 +1716,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-galletas-avena-y-pasas/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p185"
+  "id": "p185",
+  "imgLocal": "assets/img/products/ind-galletas-avena-y-pasas.png"
  },
  {
   "name": "Ind. Galletas Chocolate Chip",
@@ -1671,7 +1726,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-galletas-chocolate-chip/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p186"
+  "id": "p186",
+  "imgLocal": "assets/img/products/ind-galletas-chocolate-chip.png"
  },
  {
   "name": "Ind. Galletas Chocolate Marrón",
@@ -1680,7 +1736,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-galletas-chocolate-marron/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p187"
+  "id": "p187",
+  "imgLocal": "assets/img/products/ind-galletas-chocolate-marr-n.png"
  },
  {
   "name": "Ind. Galletas Peanut Butter Chocolate Chip",
@@ -1689,7 +1746,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-galletas-peanut-butter-chocolate-chip/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p188"
+  "id": "p188",
+  "imgLocal": "assets/img/products/ind-galletas-peanut-butter-chocolate-chip.png"
  },
  {
   "name": "Ind. Galletas Pistacho Cranberry",
@@ -1698,7 +1756,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-galletas-pistacho-cranberry/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p189"
+  "id": "p189",
+  "imgLocal": "assets/img/products/ind-galletas-pistacho-cranberry.png"
  },
  {
   "name": "Ind. Polvorones Ciruela",
@@ -1725,7 +1784,8 @@
   "url": "https://www.cremapasteleria.com/producto/ind-polvorones-nueces/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p192"
+  "id": "p192",
+  "imgLocal": "assets/img/products/ind-polvorones-nueces.png"
  },
  {
   "name": "Sugar Cookies Decoradas",
@@ -1734,7 +1794,8 @@
   "url": "https://www.cremapasteleria.com/producto/sugar-cookies-decoradas/",
   "cat": "menu-dulce/individuales-secos",
   "catLabel": "Individuales Secos",
-  "id": "p193"
+  "id": "p193",
+  "imgLocal": "assets/img/products/sugar-cookies-decoradas.jpg"
  },
  {
   "name": "Cuadritos Blondie Brownies (6 unds.)",
@@ -1761,7 +1822,8 @@
   "url": "https://www.cremapasteleria.com/producto/cuadritos-brownies-6-unds/",
   "cat": "menu-dulce/paquetes",
   "catLabel": "Paquetes",
-  "id": "p196"
+  "id": "p196",
+  "imgLocal": "assets/img/products/cuadritos-brownies-6-unds-.png"
  },
  {
   "name": "Galletas Albaricoque y Almendras (8 unds.)",
@@ -1770,7 +1832,8 @@
   "url": "https://www.cremapasteleria.com/producto/galletas-albaricoque-y-almendras-8-unds/",
   "cat": "menu-dulce/paquetes",
   "catLabel": "Paquetes",
-  "id": "p197"
+  "id": "p197",
+  "imgLocal": "assets/img/products/galletas-albaricoque-y-almendras-8-unds-.png"
  },
  {
   "name": "Galletas Avena y Pasas (8 unds.)",
@@ -1779,7 +1842,8 @@
   "url": "https://www.cremapasteleria.com/producto/galletas-avena-y-pasas-8-unds/",
   "cat": "menu-dulce/paquetes",
   "catLabel": "Paquetes",
-  "id": "p198"
+  "id": "p198",
+  "imgLocal": "assets/img/products/galletas-avena-y-pasas-8-unds-.png"
  },
  {
   "name": "Galletas Chocolate Chip (8 unds.)",
@@ -1797,7 +1861,8 @@
   "url": "https://www.cremapasteleria.com/producto/galletas-chocolate-marron-8-unds/",
   "cat": "menu-dulce/paquetes",
   "catLabel": "Paquetes",
-  "id": "p200"
+  "id": "p200",
+  "imgLocal": "assets/img/products/galletas-chocolate-marr-n-8-unds-.png"
  },
  {
   "name": "Galletas Datiles, Naranja y Almendras (8 unds.)",
@@ -1806,7 +1871,8 @@
   "url": "https://www.cremapasteleria.com/producto/galletas-datiles-naranja-y-almendras-8-unds/",
   "cat": "menu-dulce/paquetes",
   "catLabel": "Paquetes",
-  "id": "p201"
+  "id": "p201",
+  "imgLocal": "assets/img/products/galletas-datiles-naranja-y-almendras-8-unds-.png"
  },
  {
   "name": "Galletas Peanut Butter Chocolate Chip (8 unds.)",
@@ -1824,7 +1890,8 @@
   "url": "https://www.cremapasteleria.com/producto/galletas-pistacho-y-cranberry-8-unds/",
   "cat": "menu-dulce/paquetes",
   "catLabel": "Paquetes",
-  "id": "p203"
+  "id": "p203",
+  "imgLocal": "assets/img/products/galletas-pistacho-y-cranberry-8-unds-.png"
  },
  {
   "name": "Galletas Pistacho y Cranberry (8 unds.)",
@@ -1833,7 +1900,8 @@
   "url": "https://www.cremapasteleria.com/producto/galletas-pistacho-y-cranberry-8-unds-2/",
   "cat": "menu-dulce/paquetes",
   "catLabel": "Paquetes",
-  "id": "p204"
+  "id": "p204",
+  "imgLocal": "assets/img/products/galletas-pistacho-y-cranberry-8-unds-.png"
  },
  {
   "name": "Polvorones Ciruela",
@@ -1842,7 +1910,8 @@
   "url": "https://www.cremapasteleria.com/producto/polvorones-ciruela/",
   "cat": "menu-dulce/paquetes",
   "catLabel": "Paquetes",
-  "id": "p205"
+  "id": "p205",
+  "imgLocal": "assets/img/products/polvorones-ciruela.png"
  },
  {
   "name": "Polvorones Guayaba",
@@ -1860,7 +1929,8 @@
   "url": "https://www.cremapasteleria.com/producto/polvorones-mixtos/",
   "cat": "menu-dulce/paquetes",
   "catLabel": "Paquetes",
-  "id": "p207"
+  "id": "p207",
+  "imgLocal": "assets/img/products/polvorones-mixtos.png"
  },
  {
   "name": "Polvorones Nueces",
@@ -1869,7 +1939,8 @@
   "url": "https://www.cremapasteleria.com/producto/polvorones-nueces/",
   "cat": "menu-dulce/paquetes",
   "catLabel": "Paquetes",
-  "id": "p208"
+  "id": "p208",
+  "imgLocal": "assets/img/products/polvorones-nueces.png"
  },
  {
   "name": "Fruit Cake c/ Brandy",
@@ -1878,7 +1949,8 @@
   "url": "https://www.cremapasteleria.com/producto/fruit-cake-con-brandy/",
   "cat": "menu-dulce/panes-y-postres-navidenos",
   "catLabel": "Navideños",
-  "id": "p209"
+  "id": "p209",
+  "imgLocal": "assets/img/products/fruit-cake-c-brandy.jpg"
  },
  {
   "name": "Fruit Cake c/ Ron",
@@ -1887,7 +1959,8 @@
   "url": "https://www.cremapasteleria.com/producto/fruit-cake-con-ron/",
   "cat": "menu-dulce/panes-y-postres-navidenos",
   "catLabel": "Navideños",
-  "id": "p210"
+  "id": "p210",
+  "imgLocal": "assets/img/products/fruit-cake-c-ron.jpg"
  },
  {
   "name": "Horneado Pierna de Cerdo por libra (Pierna por el cliente)",
@@ -2013,7 +2086,8 @@
   "url": "https://www.cremapasteleria.com/producto/tronco-chocolate-y-nueces/",
   "cat": "menu-dulce/panes-y-postres-navidenos",
   "catLabel": "Navideños",
-  "id": "p224"
+  "id": "p224",
+  "imgLocal": "assets/img/products/tronco-de-chocolate-y-nueces.jpg"
  },
  {
   "name": "Agua con Gas",
@@ -2031,7 +2105,8 @@
   "url": "https://www.cremapasteleria.com/producto/agua-natural/",
   "cat": "bebidas-drinks/agua-water",
   "catLabel": "Agua",
-  "id": "p226"
+  "id": "p226",
+  "imgLocal": "assets/img/products/agua-natural.png"
  },
  {
   "name": "Agua Perrier",
@@ -2040,7 +2115,8 @@
   "url": "https://www.cremapasteleria.com/producto/agua-perrier/",
   "cat": "bebidas-drinks/agua-water",
   "catLabel": "Agua",
-  "id": "p227"
+  "id": "p227",
+  "imgLocal": "assets/img/products/agua-perrier.png"
  },
  {
   "name": "Agua Saborizada",
@@ -2328,7 +2404,8 @@
   "url": "https://www.cremapasteleria.com/producto/coca-cola/",
   "cat": "bebidas-drinks/refrescos-variados",
   "catLabel": "Refrescos",
-  "id": "p259"
+  "id": "p259",
+  "imgLocal": "assets/img/products/coca-cola.png"
  },
  {
   "name": "Coca-Cola Light",
@@ -2337,7 +2414,8 @@
   "url": "https://www.cremapasteleria.com/producto/coca-cola-light/",
   "cat": "bebidas-drinks/refrescos-variados",
   "catLabel": "Refrescos",
-  "id": "p260"
+  "id": "p260",
+  "imgLocal": "assets/img/products/coca-cola-light.png"
  },
  {
   "name": "Fanta Naranja",
@@ -2346,7 +2424,8 @@
   "url": "https://www.cremapasteleria.com/producto/fanta-naranja/",
   "cat": "bebidas-drinks/refrescos-variados",
   "catLabel": "Refrescos",
-  "id": "p261"
+  "id": "p261",
+  "imgLocal": "assets/img/products/fanta-naranja.png"
  },
  {
   "name": "Fanta Uva",
@@ -2355,7 +2434,8 @@
   "url": "https://www.cremapasteleria.com/producto/fanta-uva/",
   "cat": "bebidas-drinks/refrescos-variados",
   "catLabel": "Refrescos",
-  "id": "p262"
+  "id": "p262",
+  "imgLocal": "assets/img/products/fanta-uva.png"
  },
  {
   "name": "Frambuesa",
@@ -2364,7 +2444,8 @@
   "url": "https://www.cremapasteleria.com/producto/frambuesa/",
   "cat": "bebidas-drinks/refrescos-variados",
   "catLabel": "Refrescos",
-  "id": "p263"
+  "id": "p263",
+  "imgLocal": "assets/img/products/frambuesa.png"
  },
  {
   "name": "Merengue",
@@ -2373,7 +2454,8 @@
   "url": "https://www.cremapasteleria.com/producto/merengue/",
   "cat": "bebidas-drinks/refrescos-variados",
   "catLabel": "Refrescos",
-  "id": "p264"
+  "id": "p264",
+  "imgLocal": "assets/img/products/merengue.png"
  },
  {
   "name": "Sprite",
@@ -2382,7 +2464,8 @@
   "url": "https://www.cremapasteleria.com/producto/sprite/",
   "cat": "bebidas-drinks/refrescos-variados",
   "catLabel": "Refrescos",
-  "id": "p265"
+  "id": "p265",
+  "imgLocal": "assets/img/products/sprite.png"
  },
  {
   "name": "Botella de Vino Blanco Frontera",
@@ -2472,7 +2555,8 @@
   "url": "https://www.cremapasteleria.com/producto/cerveza-corona/",
   "cat": "bebidas-drinks/cervezas",
   "catLabel": "Cervezas",
-  "id": "p275"
+  "id": "p275",
+  "imgLocal": "assets/img/products/cerveza-corona.png"
  },
  {
   "name": "Cerveza Desperados",
@@ -2499,7 +2583,8 @@
   "url": "https://www.cremapasteleria.com/producto/cerveza-miller/",
   "cat": "bebidas-drinks/cervezas",
   "catLabel": "Cervezas",
-  "id": "p278"
+  "id": "p278",
+  "imgLocal": "assets/img/products/cerveza-miller-genuine-draft.png"
  },
  {
   "name": "Cerveza Modelo Negra",
@@ -2526,7 +2611,8 @@
   "url": "https://www.cremapasteleria.com/producto/cerveza-presidente-black/",
   "cat": "bebidas-drinks/cervezas",
   "catLabel": "Cervezas",
-  "id": "p281"
+  "id": "p281",
+  "imgLocal": "assets/img/products/cerveza-presidente-black.png"
  },
  {
   "name": "Cerveza Presidente Light Pequeña",
@@ -2544,7 +2630,8 @@
   "url": "https://www.cremapasteleria.com/producto/cerveza-presidente/",
   "cat": "bebidas-drinks/cervezas",
   "catLabel": "Cervezas",
-  "id": "p283"
+  "id": "p283",
+  "imgLocal": "assets/img/products/cerveza-presidente-normal-peque-a.png"
  },
  {
   "name": "Cerveza Stella Artois Belgium",
