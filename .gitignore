@@ -1,0 +1,21 @@
+# Datos crudos y scripts de scraping (no se suben al deploy)
+raw/
+*.out
+scrape.py
+scrape2.py
+download.sh
+download2.sh
+*.html.bak
+
+# Archivos sueltos de debug (no parte del sitio)
+home.html
+sub1.html
+p2.html
+prod.html
+wb_home.html
+feed.xml
+*.log
+scrape.log
+download.log
+dl2.log
+scrape2.out
