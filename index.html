@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crema Pastelería | Café, Restaurant, Panadería & Repostería — La Romana</title>
+<meta name="description" content="Crema Pastelería en La Romana, RD. Repostería, pasteles, postres, café y comida salada. Pide online por WhatsApp con entrega a domicilio o retiro en tienda.">
+<meta name="theme-color" content="#0170b9">
+<meta property="og:title" content="Crema Pastelería — Pide online">
+<meta property="og:description" content="Repostería artesanal en La Romana. Catálogo digital, pedidos por WhatsApp y entrega a domicilio.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_DO">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Promo banner -->
+<div class="promo">
+  <div class="promo-track">
+    <span>🎉 10% de descuento en tu primer pedido online</span>
+    <span>🍰 Encargos de tortas con 48h de anticipación</span>
+    <span>🛵 Delivery gratis en La Romana Centro +$500</span>
+    <span>🎉 10% de descuento en tu primer pedido online</span>
+    <span>🍰 Encargos de tortas con 48h de anticipación</span>
+    <span>🛵 Delivery gratis en La Romana Centro +$500</span>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="https://www.cremapasteleria.com/wp-content/uploads/2020/10/cropped-Crema-Pasteleria-Logotipo-Web-Actualizado-Adaptado-Web-120x40.png" alt="Crema Pastelería" onerror="this.style.display='none'">
+      Crema
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:.6em">
+      <button class="cart-btn" data-open-cart aria-label="Abrir pedido">
+        🛒 <span>Pedido</span> <span class="cart-count" id="cart-count">0</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Inicio</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div>
+      <span class="eyebrow">Repostería artesanal · La Romana</span>
+      <h1>Lo dulce que tu día necesita 🍰</h1>
+      <p>Descubre nuestro catálogo completo de tortas, postres, café y comida salada. Arma tu pedido y recíbelo en casa o retíralo en tienda.</p>
+      <div class="hero-cta">
+        <a href="catalogo.html" class="btn btn-primary">Ver Catálogo</a>
+        <button class="btn btn-ghost" data-open-cart>🛒 Hacer Pedido</button>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="dish" style="background:linear-gradient(135deg,#cabe96,#e9dcc0)">Torta estrella del día</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6em">
+        <div style="background:var(--cream-soft);border-radius:14px;padding:1em">
+          <div style="font-size:1.6rem">🥐</div><strong>Panadería fresca</strong>
+          <div class="muted" style="font-size:.8rem">Cada mañana</div>
+        </div>
+        <div style="background:var(--cream-soft);border-radius:14px;padding:1em">
+          <div style="font-size:1.6rem">🎂</div><strong>Tortas a medida</strong>
+          <div class="muted" style="font-size:.8rem">Para eventos</div>
+        </div>
+      </div>
+      <a href="https://wa.me/18098132103" target="_blank" class="btn btn-wa btn-block">💬 Pedir por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- Categorías -->
+<section id="categorias">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Explora</span>
+      <h2>Nuestras categorías</h2>
+      <p>Desde un café de la mañana hasta la torta de tu cumpleaños.</p>
+    </div>
+    <div class="cat-grid">
+      <a class="cat-card" style="background-image:url('https://www.cremapasteleria.com/wp-content/uploads/2020/08/Crema-Menu-Digital-Cat-Menu-Salado-600x600px-MENU-SALADO-2-3-300x300.png')" href="catalogo.html?cat=menu-salado"><span>Menú Salado</span></a>
+      <a class="cat-card" style="background-image:url('https://www.cremapasteleria.com/wp-content/uploads/2020/08/Crema-Menu-Digital-Categoria-Menu-Dulce-600x600px-MENU-DULCE-300x300.png')" href="catalogo.html?cat=menu-dulce"><span>Menú Dulce</span></a>
+      <a class="cat-card" style="background-image:url('https://www.cremapasteleria.com/wp-content/uploads/2020/08/Crema-Menu-Digital-Cat-Bebidas-600x600px-BEBIDAS-5-2-300x300.png')" href="catalogo.html?cat=bebidas-drinks"><span>Bebidas</span></a>
+      <a class="cat-card" style="background:linear-gradient(135deg,#0170b9,#014a78)" href="catalogo.html?cat=menu-dulce/tartas"><span>Tortas Especiales</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- Más vendidos (se llena con JS) -->
+<section id="vendidos" style="background:#fff5ea">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Favoritos</span>
+      <h2>Más vendidos</h2>
+      <p>Lo que nuestros clientes piden una y otra vez.</p>
+    </div>
+    <div class="product-grid" id="best-grid"></div>
+    <div class="center" style="margin-top:1.4em">
+      <a href="catalogo.html" class="btn btn-primary">Ver todo el catálogo →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Por qué elegirnos -->
+<section id="porque">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Crema</span>
+      <h2>¿Por qué pedir con nosotros?</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature"><div class="ic">⚡</div><h3>Rápido y fácil</h3><p>Armas tu pedido desde el celular en segundos, con búsqueda y filtros en tiempo real.</p></div>
+      <div class="feature"><div class="ic">📱</div><h3>WhatsApp directo</h3><p>Enviamos tu pedido estructurado por WhatsApp. Sin registros ni complicaciones.</p></div>
+      <div class="feature"><div class="ic">🛵</div><h3>Delivery o retiro</h3><p>Elige entrega a domicilio con cálculo de zona, o retiro en tienda con hora programada.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Reseñas -->
+<section id="resenas" style="background:#fff5ea">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Opiniones</span>
+      <h2>Lo que dicen nuestros clientes</h2>
+      <p>Reseñas reales de Google Reviews y fotos de Instagram.</p>
+    </div>
+    <div class="reviews-grid" id="reviews-grid"></div>
+    <h3 class="center" style="margin-top:1.6em">Síguenos en Instagram</h3>
+    <div class="ig-grid" id="ig-grid"></div>
+  </div>
+</section>
+
+<!-- Suscripción -->
+<section id="suscribir">
+  <div class="container">
+    <div class="subscribe">
+      <h2>Recibe descuentos exclusivos 🎁</h2>
+      <p style="opacity:.9;margin:.2em 0 0">Suscríbete y te enviamos promos del día y cupones solo para suscriptores.</p>
+      <form id="subscribe-form">
+        <input type="email" id="sub-email" placeholder="Tu correo electrónico" required>
+        <button class="btn btn-cream" type="submit">Suscribirme</button>
+      </form>
+      <div class="msg" id="sub-msg"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Crema Pastelería</h4>
+      <p style="font-size:.9rem;color:#cfc6b6">Café, Restaurant, Panadería & Repostería en La Romana, Rep. Dom. Los productos dulces y salados más deliciosos. 🍰🍖</p>
+      <p style="font-size:.85rem;color:#a59c8c">Todos los precios incluyen ITBIS.</p>
+    </div>
+    <div>
+      <h4>Visítanos</h4>
+      <p style="font-size:.9rem">📍 C/ Francisco Richiez #61<br>La Romana, Rep. Dom.</p>
+      <p style="font-size:.9rem">☎ (809) 813-2103<br>☎ (829) 761-1728</p>
+    </div>
+    <div>
+      <h4>Enlaces</h4>
+      <p style="font-size:.9rem;line-height:1.9">
+        <a href="catalogo.html">Catálogo</a><br>
+        <a href="nosotros.html">Nosotros</a><br>
+        <a href="contacto.html">Contacto</a><br>
+        <a href="https://instagram.com/cremapasteleria" target="_blank">Instagram</a><br>
+        <a href="https://facebook.com/cremapasteleria" target="_blank">Facebook</a>
+      </p>
+    </div>
+  </div>
+  <div class="container footer-bottom">© <span id="year"></span> Crema Pastelería · La Romana, RD · Diseñado para pedidos online.</div>
+</footer>
+
+<!-- Carrito drawer -->
+<div class="cart-overlay" id="cart-overlay"></div>
+<aside class="cart-drawer" id="cart-drawer" aria-label="Pedido">
+  <div class="cart-head">
+    <h3>Tu Pedido 🛒</h3>
+    <button class="close" data-close-cart aria-label="Cerrar">✕</button>
+  </div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="cart-foot">
+    <div class="delivery-toggle" id="delivery-block" style="display:none">
+      <button data-mode="pickup" class="active">🏪 Retiro</button>
+      <button data-mode="delivery">🛵 Delivery</button>
+    </div>
+    <div id="zone-wrap" style="display:none" class="field">
+      <label>Zona de entrega</label>
+      <select id="zone-sel">
+        <option value="central">La Romana Centro</option>
+        <option value="este">Romana Este</option>
+        <option value="colonia">Villa Hermosa / Colonia</option>
+        <option value="out">Fuera de zona (+cargo)</option>
+      </select>
+    </div>
+    <div class="sched">
+      <div class="field" style="margin:0">
+        <label>Fecha</label>
+        <input type="date" id="sched-date">
+      </div>
+      <div class="field" style="margin:0">
+        <label>Hora</label>
+        <select id="sched-time">
+          <option>09:00</option><option>10:00</option><option>11:00</option>
+          <option>12:00</option><option>13:00</option><option>14:00</option>
+          <option>15:00</option><option>16:00</option><option>17:00</option>
+          <option>18:00</option><option>19:00</option>
+        </select>
+      </div>
+    </div>
+    <div class="cart-total"><span>Total</span><span id="cart-total">$0.00</span></div>
+    <button class="btn btn-wa btn-block" id="send-wa">💬 Enviar pedido por WhatsApp</button>
+  </div>
+</aside>
+
+<!-- FAB carrito -->
+<button class="fab btn btn-primary" id="cart-fab" aria-label="Pedido">🛒 <span class="cart-count" id="cart-count2">0</span></button>
+
+<div class="toast" id="toast"></div>
+
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>
