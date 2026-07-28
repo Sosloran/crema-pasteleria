@@ -3,20 +3,28 @@
    Mobile-first · Paleta de marca · Food-appealing
    =========================================================== */
 :root{
-  --blue:#0170b9;
-  --blue-dark:#015a96;
-  --cream:#cabe96;
-  --cream-soft:#f3ecdd;
+  /* Paleta real de Crema Pastelería: café/marrón, blanco y amarillo crema */
+  --cafe:#6b4226;
+  --cafe-dark:#4a2c18;
+  --cafe-soft:#8a5a36;
+  --crema:#e8c87a;            /* amarillo crema de la marca */
+  --crema-soft:#f6ecd6;
+  --blanco:#fffdf9;
   --red:#cc1818;
-  --ink:#3a3a3a;
-  --muted:#757575;
-  --bg:#fffaf3;
+  --ink:#3a2a1c;
+  --muted:#8a7a68;
+  --bg:#fbf6ee;
   --card:#ffffff;
-  --line:#ece4d8;
+  --line:#e9ddc9;
+  /* Acentos NEÓN futuristas (usados con moderación en CTA, glow, chatbot) */
+  --neon-cyan:#00e5ff;
+  --neon-magenta:#ff2bd6;
+  --neon-lime:#b6ff3c;
+  --neon-glow:0 0 12px rgba(0,229,255,.55), 0 0 22px rgba(255,43,214,.35);
   --radius:18px;
   --radius-sm:12px;
-  --shadow:0 8px 30px rgba(58,58,58,.10);
-  --shadow-sm:0 3px 14px rgba(58,58,58,.08);
+  --shadow:0 8px 30px rgba(74,44,24,.12);
+  --shadow-sm:0 3px 14px rgba(74,44,24,.08);
   --maxw:1180px;
   --header-h:62px;
   font-synthesis:none;
@@ -45,9 +53,9 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   white-space:nowrap;
 }
 .btn:active{transform:scale(.97)}
-.btn-primary{background:var(--blue);color:#fff;box-shadow:0 6px 18px rgba(1,112,185,.35)}
-.btn-primary:hover{background:var(--blue-dark)}
-.btn-cream{background:var(--cream);color:#3a2f10}
+.btn-primary{background:var(--cafe);color:#fff;box-shadow:0 6px 18px rgba(107,66,38,.35)}
+.btn-primary:hover{background:var(--cafe-dark)}
+.btn-cream{background:var(--crema);color:#3a2a10}
 .btn-ghost{background:#fff;color:var(--ink);border:1.5px solid var(--line)}
 .btn-wa{background:#25d366;color:#fff;box-shadow:0 6px 18px rgba(37,211,102,.35)}
 .btn-block{width:100%}
@@ -56,7 +64,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 
 /* ---------- Top promo banner ---------- */
 .promo{
-  background:linear-gradient(90deg,var(--blue),var(--blue-dark));
+  background:linear-gradient(90deg,var(--cafe),var(--cafe-dark));
   color:#fff;font-size:.85rem;font-weight:500;text-align:center;
   padding:.5em 1em;position:relative;overflow:hidden;
 }
@@ -67,16 +75,16 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 
 /* ---------- Header ---------- */
 .site-header{
-  position:sticky;top:0;z-index:50;background:rgba(255,250,243,.92);
+  position:sticky;top:0;z-index:50;background:rgba(255,253,249,.92);
   backdrop-filter:saturate(1.4) blur(10px);
   border-bottom:1px solid var(--line);
 }
 .nav{display:flex;align-items:center;justify-content:space-between;height:var(--header-h)}
-.brand{display:flex;align-items:center;gap:.6em;font-weight:700;font-size:1.15rem;color:var(--blue)}
-.brand img{height:34px;width:auto}
+.brand{display:flex;align-items:center;gap:.6em;font-weight:700;font-size:1.15rem;color:var(--cafe)}
+.brand img{height:40px;width:auto;border-radius:8px}
 .nav-links{display:none;gap:1.4em;align-items:center;font-weight:500}
 .nav-links a{padding:.3em 0;position:relative;color:var(--ink)}
-.nav-links a.active,.nav-links a:hover{color:var(--blue)}
+.nav-links a.active,.nav-links a:hover{color:var(--cafe)}
 .cart-btn{
   position:relative;display:inline-flex;align-items:center;gap:.35em;
   background:#fff;border:1.5px solid var(--line);border-radius:999px;
@@ -99,19 +107,20 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 
 /* ---------- Hero ---------- */
 .hero{position:relative;overflow:hidden;background:
-  radial-gradient(1200px 500px at 80% -10%,rgba(1,112,185,.15),transparent),
-  linear-gradient(160deg,var(--cream-soft),#fff);}
+  radial-gradient(1200px 500px at 85% -10%,rgba(232,200,122,.45),transparent),
+  radial-gradient(600px 400px at 10% 110%,rgba(0,229,255,.18),transparent),
+  linear-gradient(160deg,var(--crema-soft),#fff);}
 .hero-inner{display:grid;gap:1.5em;align-items:center;padding:2.4em 0}
-.hero h1{font-size:clamp(1.8rem,5vw,3rem);color:var(--blue)}
+.hero h1{font-size:clamp(1.8rem,5vw,3rem);color:var(--cafe);text-shadow:0 0 18px rgba(232,200,122,.35)}
 .hero p{font-size:1.05rem;color:var(--muted);max-width:34ch}
 .hero-cta{display:flex;flex-wrap:wrap;gap:.7em;margin-top:.4em}
 .hero-card{
   background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);
-  padding:1.2em;display:grid;gap:.8em;
+  padding:1.2em;display:grid;gap:.8em;border:1px solid rgba(232,200,122,.5);
 }
 .hero-card .dish{height:170px;border-radius:var(--radius-sm);
-  background:linear-gradient(135deg,var(--cream),#e9dcc0) center/cover;display:flex;
-  align-items:flex-end;padding:.8em;color:#3a2f10;font-weight:700}
+  background:linear-gradient(135deg,var(--crema),#e9dcc0) center/cover;display:flex;
+  align-items:flex-end;padding:.8em;color:#3a2a10;font-weight:700}
 @media(min-width:880px){.hero-inner{grid-template-columns:1.1fr .9fr;padding:3.4em 0}}
 
 /* ---------- Sections ---------- */
@@ -119,7 +128,7 @@ section{padding:2.6em 0}
 .section-head{text-align:center;margin-bottom:1.6em}
 .section-head h2{font-size:clamp(1.5rem,3.5vw,2.2rem)}
 .section-head p{color:var(--muted);max-width:52ch;margin:.3em auto 0}
-.eyebrow{color:var(--blue);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}
+.eyebrow{color:var(--cafe);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}
 
 /* categories */
 .cat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1em}
@@ -143,8 +152,15 @@ section{padding:2.6em 0}
 .product-thumb .ph{font-size:2.4rem;font-weight:800;color:var(--cream)}
 .product-body{padding:.8em .9em 1em;display:flex;flex-direction:column;gap:.35em;flex:1}
 .product-name{font-weight:600;font-size:.95rem;line-height:1.25}
-.product-price{color:var(--blue);font-weight:700;font-size:1.05rem}
+.product-price{color:var(--cafe);font-weight:700;font-size:1.05rem}
 .product-card .btn{margin-top:auto;font-size:.85rem;padding:.6em}
+/* acento neón futurista en CTA principal */
+.btn-neon{
+  background:linear-gradient(90deg,var(--neon-cyan),var(--neon-magenta));
+  color:#0a0a0a;font-weight:700;box-shadow:var(--neon-glow);
+  border:1px solid rgba(255,255,255,.4);
+}
+.btn-neon:hover{filter:brightness(1.08)}
 
 /* about / features */
 .feature-grid{display:grid;grid-template-columns:1fr;gap:1em}
@@ -233,7 +249,7 @@ section{padding:2.6em 0}
 .cart-total{display:flex;justify-content:space-between;font-weight:700;font-size:1.1rem}
 .delivery-toggle{display:flex;gap:.5em}
 .delivery-toggle button{flex:1;padding:.7em;border-radius:var(--radius-sm);border:1.5px solid var(--line);font-weight:600;background:#fff}
-.delivery-toggle button.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.delivery-toggle button.active{background:var(--cafe);color:#fff;border-color:var(--cafe)}
 .sched{display:grid;grid-template-columns:1fr 1fr;gap:.6em}
 .sched select{width:100%;padding:.6em;border:1.5px solid var(--line);border-radius:10px;background:#fff;font-family:inherit}
 .zone-note{font-size:.8rem;color:var(--muted)}
@@ -257,3 +273,44 @@ section{padding:2.6em 0}
 @media(max-width:879px){.fab{display:inline-flex}}
 
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ---------- Chatbot flotante ---------- */
+.chat-fab{
+  position:fixed;bottom:18px;right:18px;z-index:110;display:inline-flex;align-items:center;gap:.5em;
+  background:linear-gradient(90deg,var(--neon-cyan),var(--neon-magenta));color:#0a0a0a;font-weight:700;
+  padding:.8em 1.1em;border-radius:999px;box-shadow:var(--neon-glow);border:1px solid rgba(255,255,255,.5);
+}
+@media(min-width:880px){.chat-fab{right:22px;bottom:22px}}
+.chat-fab .dot{width:9px;height:9px;border-radius:50%;background:#0a0a0a;animation:pulse 1.4s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.chat-panel{
+  position:fixed;bottom:74px;right:14px;width:min(360px,94vw);height:min(520px,76vh);z-index:111;
+  background:#fff;border-radius:18px;box-shadow:0 18px 50px rgba(74,44,24,.3);
+  display:none;flex-direction:column;overflow:hidden;border:1px solid var(--line);
+}
+.chat-panel.open{display:flex;animation:chatIn .22s ease}
+@keyframes chatIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.chat-head{display:flex;align-items:center;gap:.6em;padding:.9em 1em;color:#fff;
+  background:linear-gradient(90deg,var(--cafe),var(--cafe-dark))}
+.chat-head .avatar{width:34px;height:34px;border-radius:50%;background:var(--crema);display:flex;
+  align-items:center;justify-content:center;font-size:1.2rem;box-shadow:var(--neon-glow)}
+.chat-head .title{font-weight:700;line-height:1.05}
+.chat-head .sub{font-size:.72rem;opacity:.85}
+.chat-head .x{margin-left:auto;font-size:1.3rem;color:#fff;line-height:1}
+.chat-body{flex:1;overflow-y:auto;padding:.9em;display:flex;flex-direction:column;gap:.6em;background:var(--crema-soft)}
+.bubble{max-width:85%;padding:.6em .85em;border-radius:14px;font-size:.9rem;line-height:1.4}
+.bubble.bot{background:#fff;color:var(--ink);border-bottom-left-radius:4px;box-shadow:var(--shadow-sm)}
+.bubble.user{background:linear-gradient(90deg,var(--neon-cyan),var(--neon-magenta));color:#0a0a0a;
+  align-self:flex-end;border-bottom-right-radius:4px;font-weight:500}
+.bubble .prod-hit{display:flex;gap:.6em;align-items:center;margin-top:.5em;padding:.5em;border-radius:10px;
+  background:var(--crema-soft);cursor:pointer}
+.bubble .prod-hit img{width:42px;height:42px;border-radius:8px;object-fit:cover;background:#fff}
+.bubble .prod-hit b{color:var(--cafe)}
+.bubble .chips{display:flex;flex-wrap:wrap;gap:.4em;margin-top:.5em}
+.bubble .chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:.3em .7em;font-size:.78rem;cursor:pointer}
+.bubble .chip:hover{border-color:var(--neon-cyan)}
+.chat-input{display:flex;gap:.5em;padding:.7em;border-top:1px solid var(--line);background:#fff}
+.chat-input input{flex:1;padding:.65em .9em;border:1.5px solid var(--line);border-radius:999px;font-family:inherit;font-size:.9rem}
+.chat-input button{background:linear-gradient(90deg,var(--neon-cyan),var(--neon-magenta));color:#0a0a0a;
+  font-weight:700;border-radius:999px;padding:.6em .9em}
+
