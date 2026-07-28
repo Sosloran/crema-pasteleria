@@ -1,0 +1,19 @@
+# Render.com — despliegue de Crema Pastelería (sitio estático servido por Python)
+# Web Service que sirve los archivos del repo para acceso remoto en cualquier dispositivo.
+runtime: python
+region: oregon
+plan: free
+
+services:
+  - type: web
+    name: crema-pasteleria
+    runtime: python
+    plan: free
+    branch: main
+    buildCommand: "pip install --upgrade pip"
+    startCommand: "python server.py"
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: "10000"
+    staticPublishPath: ./
