@@ -114,6 +114,13 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .hero h1{font-size:clamp(1.8rem,5vw,3rem);color:var(--cafe);text-shadow:0 0 18px rgba(232,200,122,.35)}
 .hero p{font-size:1.05rem;color:var(--muted);max-width:34ch}
 .hero-cta{display:flex;flex-wrap:wrap;gap:.7em;margin-top:.4em}
+/* En móvil, centrar el texto del hero (en escritorio queda a la izquierda) */
+@media(max-width:879px){
+  .hero-left{text-align:center;display:flex;flex-direction:column;align-items:center}
+  .hero-left .eyebrow{text-align:center}
+  .hero-left p{max-width:36ch}
+  .hero-cta{justify-content:center}
+}
 .hero-card{
   background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);
   padding:1.2em;display:grid;gap:.8em;border:1px solid rgba(232,200,122,.5);
@@ -276,7 +283,7 @@ section{padding:2.6em 0}
 
 /* ---------- Chatbot flotante ---------- */
 .chat-fab{
-  position:fixed;bottom:18px;right:18px;z-index:110;display:inline-flex;align-items:center;gap:.5em;
+  position:fixed;bottom:84px;right:18px;z-index:110;display:inline-flex;align-items:center;gap:.5em;
   background:linear-gradient(90deg,var(--neon-cyan),var(--neon-magenta));color:#0a0a0a;font-weight:700;
   padding:.8em 1.1em;border-radius:999px;box-shadow:var(--neon-glow);border:1px solid rgba(255,255,255,.5);
 }
